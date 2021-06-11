@@ -1,0 +1,70 @@
+* {
+    font-family: 'Hermit', monospace;
+}
+body {
+    background-color: black;
+}
+#log-reg {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 3.13rem;
+}
+#log-reg > section {
+    width: 50%;
+    margin: 0 2em;
+}
+ul.messages {
+    list-style: none;
+}
+li.error {
+    color: firebrick;
+}
+li.success {
+    color: forestgreen;
+}
+.profile-form {
+    margin-top: 6.25rem;
+    display: grid;
+    place-items: center;
+    font-size: large;
+    color: white;
+}
+h1, h4 {
+    text-align: center;
+    margin: 3.13rem;
+    color: white;
+}
+.contact-info {
+    text-align: center;
+    color: white;
+}
+.wrapper {
+    display: grid;
+    place-items: center;
+}
+.checkout {
+    color: white;
+    margin-top: 4.69rem;
+    display: grid;
+    place-items: center;
+}
+.embed-responsive .card-image {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.content-message {
+    padding-top: 4.69rem;
+    padding-bottom: 4.69rem;
+    text-align: center;
+    color: white;
+}
+.footer {
+    padding: 3.13rem;
+    margin-top: 3.13rem;
+}
+.footer p {
+    text-align: center;
+    color: white;
+}
